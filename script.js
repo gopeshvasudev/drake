@@ -1,7 +1,6 @@
 let color = "#28E98C";
 let color2 = " rgb(93, 85, 85)";
 
-
 const changerIcon = document.querySelectorAll(".feedback-changer i");
 const feedbackBox = document.querySelectorAll(".feedback");
 let clutter = 1;
@@ -13,7 +12,7 @@ forwardButton.addEventListener("click", () => {
   feedbackBox[0].style.transform = `translateY(-100%)`;
   feedbackBox[1].style.transform = `translateY(-100%)`;
   clutter = 2;
-  let display = document.querySelector('.feedback-changer span');
+  let display = document.querySelector(".feedback-changer span");
   display.innerText = "2";
 });
 
@@ -21,7 +20,7 @@ backwardButton.addEventListener("click", () => {
   feedbackBox[0].style.transform = `translateY(0%)`;
   feedbackBox[1].style.transform = `translateY(100%)`;
   clutter = 1;
-  let display = document.querySelector('.feedback-changer span');
+  let display = document.querySelector(".feedback-changer span");
   display.innerText = "1";
 });
 
@@ -47,7 +46,7 @@ gsap.from(".navigation-box i:first-child", {
     end: "60% 40%",
     scrub: 2,
   },
-  color:color
+  color: color,
 });
 
 let timeline = gsap.timeline({
@@ -321,4 +320,3 @@ timeline3.to(".navigation-box i:nth-child(8)", {
 timeline3.to(".navigation-box i:nth-child(7)", {
   color: color2,
 });
-
