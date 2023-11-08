@@ -232,7 +232,7 @@ gsap.from(".page6 .portfolio-box, .page6 > h1", {
     end: "5% 20%",
     scrub: 2,
   },
-  y: 100,
+  x: 100,
   opacity: 0,
   stagger: 0.1,
 });

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-ExtraBold.otf);
+}
+
 .flex-center {
     display: flex;
     align-items: center;
@@ -20,6 +25,7 @@
     padding: 2vw 1vw;
     font-family: la-four;
     color: #fff;
+    font-family: gilroy;
 }
 
 .fixed-box .model {
