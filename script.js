@@ -225,7 +225,7 @@ gsap.to(".navigation-box i:nth-child(4)", {
   color: color2,
 });
 
-gsap.from(".page6 .portfolio-box, .page6 > h1, .page6 .image-box", {
+gsap.from(".page6 .portfolio-box, .page6 > h1", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page6",

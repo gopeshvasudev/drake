@@ -7,8 +7,8 @@
 }
 
 @font-face {
-    font-family: la-four;
-    src: url(/fonts/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.ttf);
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-Light.otf);
 }
 
 * {
@@ -46,7 +46,7 @@ body {
 .main {
     width: 100%;
     background-color: var(--bg-color);
-    font-family: la-four;
+    font-family: gilroy;
     overflow: hidden;
 }
 
