@@ -224,18 +224,18 @@ gsap.to(".navigation-box i:nth-child(4)", {
   color: color2,
 });
 
-// gsap.from(".page6 .portfolio-box, .page6 > h1", {
-//   scrollTrigger: {
-//     scroller: "body",
-//     trigger: ".page6",
-//     start: "-5% 50%",
-//     end: "5% 20%",
-//     scrub: 2,
-//   },
-//   x: 100,
-//   opacity: 0,
-//   stagger: 0.1,
-// });
+gsap.from(".page6 .portfolio-box, .page6 > h1", {
+  scrollTrigger: {
+    scroller: "body",
+    trigger: ".page6",
+    start: "-5% 50%",
+    end: "5% 20%",
+    scrub: 2,
+  },
+  x: 100,
+  opacity: 0,
+  stagger: 0.1,
+});
 
 gsap.to(".navigation-box i:nth-child(6)", {
   scrollTrigger: {
