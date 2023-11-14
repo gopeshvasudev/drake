@@ -502,7 +502,7 @@ body {
 }
 
 #first-image {
-    background-image: url(/images/portfolio/p1.webp);
+    background-image: url(../images/portfolio/p1.webp);
 }
 
 .page6 .image-box .software-used {
