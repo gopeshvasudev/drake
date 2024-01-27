@@ -32,13 +32,13 @@ gsap.from(".page1 .home, .page1 > h1, .page1 p", {
   stagger: 0.1,
 });
 
-gsap.to(".navigation-box i:first-child", {
+gsap.to(".navigation-box a:first-child i", {
   delay: 1,
   duration: 1,
   color: color,
 });
 
-gsap.from(".navigation-box i:first-child", {
+gsap.from(".navigation-box a:first-child i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page1",
@@ -78,7 +78,7 @@ timeline.from(
 );
 
 timeline.to(
-  ".navigation-box i:nth-child(2)",
+  ".navigation-box a:nth-child(2) i",
   {
     color: color,
   },
@@ -86,7 +86,7 @@ timeline.to(
 );
 
 timeline.to(
-  ".navigation-box i:nth-child(1)",
+  ".navigation-box a:nth-child(1) i",
   {
     color: color2,
   },
@@ -132,7 +132,7 @@ gsap.from(".page3 .sub-education-box", {
   stagger: 0.2,
 });
 
-gsap.to(".navigation-box i:nth-child(3)", {
+gsap.to(".navigation-box a:nth-child(3) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page3",
@@ -143,7 +143,7 @@ gsap.to(".navigation-box i:nth-child(3)", {
   color: color,
 });
 
-gsap.to(".navigation-box i:nth-child(2)", {
+gsap.to(".navigation-box a:nth-child(2) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page3",
@@ -167,7 +167,7 @@ gsap.from(".page4 .service-box,.page4 h1", {
   stagger: 0.2,
 });
 
-gsap.to(".navigation-box i:nth-child(4)", {
+gsap.to(".navigation-box a:nth-child(4) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page4",
@@ -178,7 +178,7 @@ gsap.to(".navigation-box i:nth-child(4)", {
   color: color,
 });
 
-gsap.to(".navigation-box i:nth-child(3)", {
+gsap.to(".navigation-box a:nth-child(3) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page4",
@@ -202,7 +202,7 @@ gsap.from(".page5 .skill-box, .page5 > h1", {
   stagger: 0.2,
 });
 
-gsap.to(".navigation-box i:nth-child(5)", {
+gsap.to(".navigation-box a:nth-child(5) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page5",
@@ -213,7 +213,7 @@ gsap.to(".navigation-box i:nth-child(5)", {
   color: color,
 });
 
-gsap.to(".navigation-box i:nth-child(4)", {
+gsap.to(".navigation-box a:nth-child(4) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page5",
@@ -237,7 +237,7 @@ gsap.from(".page6 .portfolio-box, .page6 > h1", {
   stagger: 0.1,
 });
 
-gsap.to(".navigation-box i:nth-child(6)", {
+gsap.to(".navigation-box a:nth-child(6) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page6",
@@ -248,7 +248,7 @@ gsap.to(".navigation-box i:nth-child(6)", {
   color: color,
 });
 
-gsap.to(".navigation-box i:nth-child(5)", {
+gsap.to(".navigation-box a:nth-child(5) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page6",
@@ -272,7 +272,7 @@ gsap.from(".page7 .testimonial-box, .page7 > h1", {
   stagger: 0.1,
 });
 
-gsap.to(".navigation-box i:nth-child(7)", {
+gsap.to(".navigation-box a:nth-child(7) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page7",
@@ -283,7 +283,7 @@ gsap.to(".navigation-box i:nth-child(7)", {
   color: color,
 });
 
-gsap.to(".navigation-box i:nth-child(6)", {
+gsap.to(".navigation-box a:nth-child(6) i", {
   scrollTrigger: {
     scroller: "body",
     trigger: ".page7",
@@ -313,10 +313,10 @@ timeline3.from(
   "timeline3"
 );
 
-timeline3.to(".navigation-box i:nth-child(8)", {
+timeline3.to(".navigation-box a:nth-child(8) i", {
   color: color,
 });
 
-timeline3.to(".navigation-box i:nth-child(7)", {
+timeline3.to(".navigation-box a:nth-child(7) i", {
   color: color2,
 });
